@@ -1,6 +1,7 @@
 //your JS code here. If required.
-const pElement = document.getElementById("status");
-
 function changeContent() {
-	pElement.innerText = "Entered Metaverse";
+	const statusElement = document.getElementById("status");
+
+    // Update the content of the p tag
+    statusElement.innerHTML = "<h1>Entered Metaverse</h1>";
 }
